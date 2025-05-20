@@ -1,46 +1,46 @@
 const products = [
-  {
-    id: 1,
-    name: "Cristiano Ronaldo",
-    price: 79.99,
-    image: "imges/cris.webp",
-    stock: 10
-  },
-  {
-    id: 2,
-    name: "Mithgal Al-horine",
-    price: 1000000000.99,
-    image: "imges/me.jpeg",
-    stock: 8
-  },
-  {
-    id: 1,
-    name: "Cristiano Ronaldo",
-    price: 79.99,
-    image: "imges/cris.webp",
-    stock: 10
-  },
-  {
-    id: 2,
-    name: "Mithgal Al-horine",
-    price: 1000000000.99,
-    image: "imges/me.jpeg",
-    stock: 8
-  },
-  {
-    id: 1,
-    name: "Cristiano Ronaldo",
-    price: 79.99,
-    image: "imges/cris.webp",
-    stock: 10
-  },
-  {
-    id: 2,
-    name: "Mithgal Al-horine",
-    price: 1000000000.99,
-    image: "imges/me.jpeg",
-    stock: 8
-  }
+    {
+        id: 1,
+        name: "Classic White Sneakers",
+        price: 79.99,
+        image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=300",
+        stock: 10
+    },
+    {
+        id: 2,
+        name: "Running Performance Shoes",
+        price: 129.99,
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=300",
+        stock: 8
+    },
+    {
+        id: 3,
+        name: "Casual Comfort Sneakers",
+        price: 89.99,
+        image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=300",
+        stock: 12
+    },
+    {
+        id: 4,
+        name: "Sport Elite Trainers",
+        price: 149.99,
+        image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=300",
+        stock: 5
+    },
+    {
+        id: 5,
+        name: "Urban Style Boots",
+        price: 199.99,
+        image: "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=300",
+        stock: 7
+    },
+    {
+        id: 6,
+        name: "Hiking Adventure Boots",
+        price: 169.99,
+        image: "https://images.unsplash.com/photo-1606036525923-525fa3b35465?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        stock: 9
+    }
 ];
 
 let cart = [];
@@ -280,7 +280,6 @@ if (cart.length === 0) {
 alert('Your cart is empty!');
 } else {
 alert('Proceeding to checkout...');
-  
 }
 });
 
